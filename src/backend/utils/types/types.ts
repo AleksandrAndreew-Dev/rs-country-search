@@ -30,5 +30,3 @@ export interface Card {
 }
 
 export type ApiResponse = RawCountry[];
-
-type test = {};
