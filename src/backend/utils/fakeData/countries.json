@@ -1,0 +1,68 @@
+[
+  {
+    "name": "United States of America",
+    "alpha2Code": "US",
+    "alpha3Code": "USA",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "subregion": "North America",
+    "population": 329484123,
+    "area": 9372610,
+    "currencies": [
+      { "code": "USD", "name": "United States dollar", "symbol": "$" }
+    ],
+    "languages": [{ "iso639_1": "en", "name": "English" }],
+    "callingCodes": ["1"],
+    "topLevelDomain": [".us"],
+    "borders": ["CAN", "MEX"],
+    "flag": "https://countries.dev/flags/us.svg"
+  },
+  {
+    "name": "Canada",
+    "alpha2Code": "CA",
+    "alpha3Code": "CAN",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "subregion": "North America",
+    "population": 38005238,
+    "area": 9093510,
+    "currencies": [{ "code": "CAD", "name": "Canadian dollar", "symbol": "$" }],
+    "languages": [{ "iso639_1": "en", "name": "English" }],
+    "callingCodes": ["1"],
+    "topLevelDomain": [".us"],
+    "borders": ["CAN", "MEX"],
+    "flag": "https://countries.dev/flags/us.svg"
+  },
+  {
+    "name": "Mexico",
+    "alpha2Code": "MX",
+    "alpha3Code": "MEX",
+    "capital": "Mexico City",
+    "region": "Americas",
+    "subregion": "North America",
+    "population": 128932753,
+    "area": 1943950,
+    "currencies": [{ "code": "MXN", "name": "Mexican peso", "symbol": "$" }],
+    "languages": [{ "iso639_1": "en", "name": "English" }],
+    "callingCodes": ["1"],
+    "topLevelDomain": [".us"],
+    "borders": ["CAN", "MEX"],
+    "flag": "https://countries.dev/flags/us.svg"
+  },
+  {
+    "name": "Brazil",
+    "alpha2Code": "BR",
+    "alpha3Code": "BRA",
+    "capital": "Brasília",
+    "region": "Americas",
+    "subregion": "South America",
+    "population": 212559417,
+    "area": 8511965,
+    "currencies": [{ "code": "BRL", "name": "Brazilian real", "symbol": "R$" }],
+    "languages": [{ "iso639_1": "en", "name": "English" }],
+    "callingCodes": ["1"],
+    "topLevelDomain": [".us"],
+    "borders": ["CAN", "MEX"],
+    "flag": "https://countries.dev/flags/us.svg"
+  }
+]
