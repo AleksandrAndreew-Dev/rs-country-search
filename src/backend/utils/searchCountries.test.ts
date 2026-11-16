@@ -58,9 +58,10 @@ describe("searchCountries", () => {
     vi.spyOn(globalThis, "fetch").mockRejectedValue(
       new DOMException("The user aborted a request", "AbortError"),
     );
-    await expect(searchCountries("usa", controller.signal)).rejects.toThrow(
-      "AbortError",
+    const error = await searchCountries("usa", controller.signal).catch(
+      (e) => e,
     );
+    expect(error.name).toBe("AbortError");
   });
 
   // 6. Таймаут — кидается TimeoutError (отдельно от AbortError)
