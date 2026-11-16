@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { mapCountryResponse } from "./mapCountryResponse.js";
 import type { ApiResponse, Card } from "./types/types.js";
-import data from "../utils/fakeData/country.json" with { type: "json" };
+import data from "./fakeData/countries.json" with { type: "json" };
 
 describe("mapCountryResponse", () => {
   it("should return correct response for empty query ", () => {
